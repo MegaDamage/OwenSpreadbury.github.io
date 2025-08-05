@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .navigation{
     background: #f2e9e4;
     display: flex; align-items: center; justify-content: space-between;
@@ -12,6 +15,15 @@
     font-size: 22px; font-weight: 300; color: black; border-spacing: 15px;
 }
 
+.profile{
+    width: 80%; word-wrap: break-word; padding-left: 20%; padding-top: 5%; padding-bottom: 5%; float: left; gap: 40px; display: flex;
+}
+
+.profiletext{
+    display: inline-block;
+    vertical-align: top;
+}
+
 .title{
     font-size: 35px; font-weight: 600; color: black;
 }
@@ -23,4 +35,10 @@
     font-size: 20px; font-weight: 300; color: black; 
     background: #f2e9e4;
     padding-left: 5%;
+}
+
+@media screen and (max-width:600px) {
+    profile, footer, navigation{
+        width: 100%;
+    }
 }
