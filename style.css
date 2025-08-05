@@ -15,15 +15,6 @@
     font-size: 22px; font-weight: 300; color: black; border-spacing: 15px;
 }
 
-.profile{
-    width: 100%; word-wrap: break-word; padding-left: 20%; padding-right: 20%; padding-top: 5%; padding-bottom: 5%; float: left; gap: 40px; display: flex;
-}
-
-.profiletext{
-    display: inline-block;
-    vertical-align: top;
-}
-
 .title{
     font-size: 35px; font-weight: 600; color: black;
 }
@@ -31,6 +22,31 @@
     font-size: 20px; font-weight: 300; color: black; 
     padding-right: 5%; border-spacing: 15px;
 }
+
+.profile{
+    width: 100%; word-wrap: break-word; padding-left: 20%; padding-right: 20%; padding-top: 5%; padding-bottom: 5%; float: left; gap: 40px; display: flex;
+}
+
+.profiletext{
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 200;
+}
+
+.profilelinks{
+    display:contents;
+    vertical-align: top;
+}
+
+.projectlist{
+
+}
+
+.project{
+    
+}
+
+
 .footer{
     font-size: 20px; font-weight: 300; color: black; 
     background: #f2e9e4;
