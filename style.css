@@ -1,18 +1,19 @@
 .navigation{
     background: #f2e9e4;
     display: flex; align-items: center; justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 .navigation a:hover{
     background-color: #f2e9e49d;
 }
 .navigation table{
-    float: right;
-    margin: 20px;
+    margin: 10px;
     font-size: 22px; font-weight: 300; color: black; border-spacing: 15px;
 }
 
 .title{
-    font-size: 35px; font-weight: 600; color: black; padding-left: 5%;
+    font-size: 35px; font-weight: 600; color: black;
 }
 .tabletext{
     font-size: 20px; font-weight: 300; color: black; 
@@ -20,5 +21,6 @@
 }
 .footer{
     font-size: 20px; font-weight: 300; color: black; 
-    background: #f2e9e4; margin: 20px;
+    background: #f2e9e4;
+    padding-left: 5%;
 }
