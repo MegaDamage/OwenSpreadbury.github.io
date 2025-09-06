@@ -18,20 +18,35 @@
 .title{
     font-size: 35px; font-weight: 600; color: black;
 }
+.headerText{
+    font-size: 24px; color: black;
+}
 .tabletext{
     font-size: 20px; font-weight: 200; color: black; 
     padding-right: 5%; border-spacing: 15px;
 }
 
 .profile{
-    width: 100%; word-wrap: break-word; padding-left: 20%; padding-right: 20%; padding-top: 5%; padding-bottom: 5%; float: left; gap: 40px; display: flex;
+    max-width: 100%; word-wrap: break-word; padding-left: 10%; padding-right: 10%; padding-top: 5%; padding-bottom: 5%; gap: 20px; display: flex; flex-direction: row;
+}
+
+.profileImage{
+    border-radius: 20px; max-width: 50%; max-height: fit-content; height: auto; object-fit: cover;
 }
 
 .profiletext{
     display: inline-block;
     vertical-align: top;
-    font-weight: 200;
+    font-weight: 100;
+    font-size: 22px;
 }
+
+.text{
+    font-size: 20px; font-weight: 200; color:white;
+    padding-left: 5%; padding-right: 5%; border-spacing: 15px;
+}
+
+
 
 .profilelinks{
     display:contents;
@@ -46,6 +61,10 @@
 
 }
 
+.projectImage{
+    max-width: 90%; display: block; margin: 0 auto; max-height: 600px;
+}
+
 
 .footer{
     font-size: 20px; font-weight: 300; color: black; 
@@ -53,10 +72,28 @@
 }
 .footertext{
     padding-left: 5%;
+    color: black; font-weight: 200; max-width: fit-content;
+    font-size: 25px;
 }
 
-@media screen and (max-width:600px) {
-    profile, footer, navigation{
-        width: 100%;
+@media (max-width:600px) {
+    .title{
+        font-size: 24px;
     }
+    .headerText{
+        font-size: 16px;
+    }
+    .profile{
+        max-width: 100%; padding-left: 5%; padding-right: 5%; gap: 10px; float:none; flex-direction: column; text-align: center;
+    }
+    .profiletext{
+        max-width: 60%;
+    }
+    .profileImage{
+        max-width: 90%; max-height: 100%; height: 100%; display: flex; align-self: center;
+    }
+    .projectImage{
+        max-width: 90%;
+    }
+
 }
