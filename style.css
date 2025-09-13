@@ -3,12 +3,12 @@
 }
 .navigation{
     background: #f2e9e4;
-    display: flex; align-items: center; justify-content: space-between;
+    align-items: center; justify-content: space-between;
     padding-left: 5%;
     padding-right: 5%;
 }
 .navigation a:hover{
-    background-color: #f2e9e49d;
+    background-color: #d18213;
 }
 .navigation table{
     margin: 10px;
@@ -16,14 +16,31 @@
 }
 
 .title{
-    font-size: 35px; font-weight: 600; color: black;
+    font-size: 35px; font-weight: 600; color: black; text-decoration: none;
 }
 .headerText{
-    font-size: 24px; color: black;
+    font-size: 16px; color: black; text-decoration: none; text-align: center; padding: 0px 15px;
+    transition: background-color 0.25s ease-out;
 }
 .tabletext{
     font-size: 20px; font-weight: 200; color: black; 
     padding-right: 5%; border-spacing: 15px;
+}
+
+.mobileMenu{
+    background-color: #f2e9e4; display: none;
+}
+
+.mobileMenu>img{
+    width: 40px; margin: 15px 0px;
+}
+
+#navButtons{
+    display: flex; flex-direction: row; column-gap: 20px;
+}
+
+.navShow{
+    display: block !important;
 }
 
 .profile{
@@ -76,12 +93,14 @@
     font-size: 25px;
 }
 
+
+
 @media (max-width:600px) {
     .title{
-        font-size: 24px;
+        font-size: 20px;
     }
     .headerText{
-        font-size: 16px;
+        font-size: 11px;
     }
     .profile{
         max-width: 100%; padding-left: 5%; padding-right: 5%; gap: 10px; float:none; flex-direction: column; text-align: center;
@@ -95,5 +114,11 @@
     .projectImage{
         max-width: 90%;
     }
-
+    .navigation{
+        display: grid; position: fixed; 
+    }
+    #navButtons{
+    display: none;
+    }
+    
 }
