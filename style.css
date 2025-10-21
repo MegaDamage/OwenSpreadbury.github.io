@@ -48,7 +48,7 @@
 }
 
 .profileImage{
-    border-radius: 20px; max-width: 40%; max-height: fit-content; width: auto; object-fit: cover;
+    border-radius: 20px; max-width: 40%; max-height: fit-content; object-fit: cover;
 }
 
 .profiletext{
@@ -109,7 +109,7 @@
         max-width: 60%;
     }
     .profileImage{
-        max-width: 90%; align-self: center; height: 5%;
+        max-width: 90%; align-self: center; height: auto; max-height: fit-content;
     }
     .projectImage{
         max-width: 90%;
