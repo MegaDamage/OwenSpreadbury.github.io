@@ -109,7 +109,7 @@
         max-width: 60%;
     }
     .profileImage{
-        max-width: 90%; max-height: 10%; height: 100%; display: flex; align-self: center; object-fit: cover;
+        max-width: 90%; 
     }
     .projectImage{
         max-width: 90%;
