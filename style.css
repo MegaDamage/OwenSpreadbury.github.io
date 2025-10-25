@@ -68,6 +68,7 @@
 .profilelinks{
     display:contents;
     vertical-align: top;
+    font-size: 32px; word-spacing: 12px;
 }
 
 .projectlist{
