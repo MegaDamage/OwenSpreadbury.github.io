@@ -60,12 +60,22 @@
     border-radius: 20px; max-width: 40%; max-height: fit-content; object-fit: cover;
 }
 
+.profilelinks{
+    display:contents;
+    vertical-align: top;
+    font-size: 32px; word-spacing: 12px;
+}
+
 .aboutMeImage{
     border-radius: 20px; max-width: 40%; max-height: fit-content; object-fit: cover;  align-self: center;
 }
 
 .aboutmeImageCollection{
     gap: 30px; display: flex; flex-direction: row; justify-content: center;
+}
+
+.aboutmeText{
+    font-size: 20px; color: white;
 }
 
 .profiletext{
@@ -83,11 +93,7 @@
 
 
 
-.profilelinks{
-    display:contents;
-    vertical-align: top;
-    font-size: 32px; word-spacing: 12px;
-}
+
 
 .projectlist{
 
@@ -136,6 +142,12 @@
     }
     .paranormalFactoryCover{
         max-width: 90%; align-self: center; height: auto; max-height: fit-content;
+    }
+    .aboutMeImage{
+        max-width: 90%; align-self: center; height: auto; max-height: fit-content;
+    }
+    .aboutmeImageCollection{ 
+        max-width: 100%; padding-left: 5%; padding-right: 5%; gap: 10px; float:none; flex-direction: column; text-align: center;
     }
     .projectImage{
         max-width: 90%;
