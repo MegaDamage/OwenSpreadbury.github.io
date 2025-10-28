@@ -16,7 +16,7 @@
 }
 
 .body{
-    background-color: #211c1b;
+    background-color: #12100f;
 }
 
 .title{
@@ -64,6 +64,7 @@
     vertical-align: top;
     font-weight: 100;
     font-size: 22px;
+    color: #f2e9e4;
 }
 
 .text{
