@@ -19,6 +19,11 @@
     background-color: #12100f;
 }
 
+.catTitle{
+    text-align: center;
+    color: white;
+}
+
 .title{
     font-size: 35px; font-weight: 600; color: black; text-decoration: none;
 }
@@ -59,12 +64,16 @@
     border-radius: 20px; max-width: 40%; max-height: fit-content; object-fit: cover;  align-self: center;
 }
 
+.aboutmeImageCollection{
+    gap: 30px; display: flex; flex-direction: row; justify-content: center;
+}
+
 .profiletext{
     display: inline-block;
     vertical-align: top;
     font-weight: 100;
     font-size: 22px;
-    color: #f2e9e4;
+    color: white;
 }
 
 .text{
