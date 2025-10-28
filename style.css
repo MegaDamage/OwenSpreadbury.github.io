@@ -125,6 +125,9 @@
     .navigation{
         display: grid; position: fixed; 
     }
+    .text{
+        font-size: 11px;
+    }
     #navButtons{
     display: none;
     }
