@@ -1,6 +1,12 @@
 *{
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family:'FiraSans';
+    src: url('font/FiraSans-Regular.ttf');
+}
+
 .navigation{
     background: #f2e9e4;
     align-items: center; justify-content: space-between;
@@ -90,6 +96,7 @@
     font-weight: 100;
     font-size: 22px;
     color: white;
+    font-family: 'FiraSans';
 }
 
 .text{
