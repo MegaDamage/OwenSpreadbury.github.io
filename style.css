@@ -128,6 +128,19 @@ a {
     max-width: 90%; display: block; margin: 0 auto; max-height: 600px;
 }
 
+.gallery{
+    gap: 20px; display: flex; flex-direction: row; width: 90%; align-self: center;
+
+    max-width: 100%; word-wrap: break-word; 
+    padding-left: 10%; padding-right: 10%; padding-top: 5%; padding-bottom: 5%; gap: 20px; 
+    display: flex; flex-direction: row;
+    font-family:'FiraSans'; src: url('font/FiraSans-Regular.ttf');
+}
+
+.galleryImage{
+    max-height: 600px; display: block; align-self: center; width: auto;
+}
+
 
 .footer{
     font-size: 20px; font-weight: 300; color: black; 
@@ -178,7 +191,7 @@ a {
         max-width: 90%; align-self: center; height: auto; max-height: fit-content;
     }
     .aboutmeImageCollection{ 
-        max-width: 100%; padding-left: 5%; padding-right: 5%; gap: 10px; float:none; flex-direction: column; text-align: center;
+        max-width: 100%; padding-left: 5%; padding-right: 5%; gap: 10px; float:none; flex-direction: column; text-align: center; align-self: center;
     }
     .projectImage{
         max-width: 90%;
