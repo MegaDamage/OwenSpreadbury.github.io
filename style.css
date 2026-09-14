@@ -9,14 +9,22 @@
     src: url('font/Lato-Regular.ttf');
 }
 
+h1{
+    font-weight: normal;
+}
+
+h2{
+    font-weight: normal;
+}
+
 .navigation{
-    background: #f2e9e4;
+    background: #ece7e7;
     align-items: center; justify-content: space-between;
     padding-left: 5%;
     padding-right: 5%;
 }
 .navigation a:hover{
-    background-color: #bfb7b2;
+    background-color: #bfb2b2;
 }
 .navigation table{
     margin: 10px;
@@ -25,7 +33,6 @@
 
 .body{
     background-color: #12100f;
-    font-family:'Lato'; src: url('font/Lato-Regular.ttf');
 }
 
 .title{
@@ -65,7 +72,7 @@
 }
 
 .profileImage{
-    border-radius: 20px; max-width: 40%; max-height: fit-content; object-fit: cover;
+    border-radius: 20px; max-width: 90%; max-height: 600px;; object-fit: cover;
 }
 
 .paranormalImage{
@@ -76,10 +83,9 @@
     display:contents;
     vertical-align: top;
     font-size: 32px; word-spacing: 12px;
-    font-family:'Lato'; src: url('font/Lato-Regular.ttf');
 }
 
-.a{
+a {
     color: #aea8ed;
     text-decoration: none;
 }
@@ -89,7 +95,6 @@
     vertical-align: top;
     font-size: 22px;
     color: white;
-    font-family:'Lato'; src: url('font/Lato-Regular.ttf');
 }
 
 .text{
@@ -107,7 +112,6 @@
     max-width: 100%; word-wrap: break-word; 
     padding-left: 10%; padding-right: 10%; padding-top: 5%; padding-bottom: 5%; gap: 20px; 
     display: flex; flex-direction: row;
-    font-family:'FiraSans'; src: url('font/FiraSans-Regular.ttf');
 }
 
 .galleryImage{
