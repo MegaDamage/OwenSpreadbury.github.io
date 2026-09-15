@@ -11,10 +11,14 @@
 
 h1{
     font-weight: normal;
+    font-family:'Lato'; 
+    src: url('font/Lato-Regular.ttf');
 }
 
 h2{
     font-weight: normal;
+    font-family:'Lato'; 
+    src: url('font/Lato-Regular.ttf');
 }
 
 .navigation{
