@@ -52,11 +52,12 @@ h2{
 .profile{
     max-width: 100%; word-wrap: break-word; 
     display: flex; flex-direction: row;
+    gap: 25px;
     font-family:'Lato'; src: url('font/Lato-Regular.ttf');
 }
 
 .profileImage{
-    border-radius: 20px; max-width: 90%; max-height: 600px;; object-fit: cover;
+    border-radius: 20px; width: 500px; height: 500px; object-fit: cover;
 }
 
 .paranormalImage{
