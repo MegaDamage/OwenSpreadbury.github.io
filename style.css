@@ -51,7 +51,6 @@ h2{
 
 .profile{
     max-width: 100%; word-wrap: break-word; 
-    padding-left: 10%; padding-right: 10%; padding-top: 5%; padding-bottom: 5%; gap: 20px; 
     display: flex; flex-direction: row;
     font-family:'Lato'; src: url('font/Lato-Regular.ttf');
 }
