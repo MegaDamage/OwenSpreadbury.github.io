@@ -77,7 +77,6 @@ a {
 
 .profiletext{
     text-align: center;
-    vertical-align: top;
     font-size: 26px;
     color: white;
 }
@@ -90,6 +89,10 @@ a {
 .projectImage{
     max-width: 90%; display: block; margin: 0 auto; max-height: 600px;
 }
+.wideImage{
+    border-radius: 20px; width: 500px; height: 500px; object-fit: cover; object-fit: contain;
+}
+
 
 .gallery{
     gap: 20px; display: flex; flex-direction: row; width: 90%; align-self: center;
